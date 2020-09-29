@@ -1,0 +1,15 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "赵自浩的网站";
+    ViewData["Image_BG"] = "bg-1.jpg";
+    ViewData["LOGO"] = "mywebLogo-2.png";
+}
+
+<div class="full-screen" style="z-index: -1; background: url(../imgs/@ViewData["Image_BG"]) center no-repeat; background-size: cover;"></div>
+<div class="jumbotron">
+    <h1>赵自浩</h1>
+    <p>这是我写的第一个网站，主要是为了展示我的个人能力的，我会在这上面放我的其他作品和日常；如果对我的作品和人感兴趣的话，可以在留言板哪里，进行留言哦，我看到会回复你的哦~(๑◕ܫ￩๑)b</p>
+    <p><a class="btn btn-primary" role="button" asp-area="" asp-controller="Home" asp-action="Photos">查看照片</a></p>
+</div>
